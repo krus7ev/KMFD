@@ -4,9 +4,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Templates extends MX_Controller{
     
+    //edna kolonka e templeita za saita s hedara otgore i futera otdolu
+    //Data ti kazva koq stranica izska4a pod hedara
     function one_col($data) {
+        
+        $this->load->model('mod_templates');
+        $data['query'] = $this->mod_templates->get_webpages();
+        //ima da se 4isti kod za da zarabotqt tez shemi
         $this->load->view('one_col', $data);
-    }
+    } 
+    
+    
+    
     
     function two_col($data) {
         $this->load->view('two_col', $data);

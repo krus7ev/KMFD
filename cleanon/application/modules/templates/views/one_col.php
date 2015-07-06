@@ -1,4 +1,4 @@
-<html>
+q<html>
     <head>
         <title>OneColumnLayout</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
@@ -10,6 +10,12 @@
 
             <div id="haut">
                 <ul class="menuhaut">
+                    <?php
+                        foreach ($pages as $page)
+                        {
+                            echo "<li><a".$page."</a></li>";
+                        }
+                    ?>
                     <li><a href="">Homie</a></li>
                     <li><a href="">Dash</a></li>
                     <li><a href="">Articles</a></li>
