@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/opt/lampp/htdocs/starter/application/modules/users/controllers/users.php</file>
+            <file>file:/opt/lampp/htdocs/starter/application/modules/users/models/mdl_users.php</file>
+            <file>file:/opt/lampp/htdocs/starter/application/modules/templates/views/login_page.php</file>
+            <file>file:/opt/lampp/htdocs/starter/application/modules/site_security/controllers/site_security.php</file>
+            <file>file:/opt/lampp/htdocs/starter/application/libraries/MY_Form_validation.php</file>
+            <file>file:/opt/lampp/htdocs/starter/application/modules/tasks/controllers/tasks.php</file>
+        </group>
+    </open-files>
+</project-private>
