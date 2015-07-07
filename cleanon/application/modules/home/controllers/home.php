@@ -16,13 +16,13 @@ class Home extends MX_Controller {
         
         //$data['base_url'] = ""
         
-        echo Modules::run('templates/one_col', $data);
+        echo Modules::run('templates/main_frame', $data);
         
         //$this->load->view('display', $data);
 
     }
     
-    function create(){
+/*    function create(){
         
         $update_id = $this->uri->segment(3);
         
@@ -83,12 +83,7 @@ class Home extends MX_Controller {
         }
     }
     
-    
-    
-    
-    
-    
-    
+*/    
     
     function __construct() {
 

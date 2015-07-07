@@ -1,0 +1,189 @@
+/* 
+Theme name: Cleaning Service NL
+Author: Denis Marinara
+Link: No link
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	margin-top: 0px;
+
+}
+
+a:link ,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+/* General layout */
+
+div.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Aside styles */
+article.post-aside,
+article.post-link {
+	font-size: 125%;
+	background-color: #fff5cb;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1 );
+}
+
+.mini-meta {
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+}
+
+/* Link post format styles */
+article.post-link {
+	padding: 0;
+	background-color: #E0EBFF;
+}
+
+article.post-link a {
+	display: block;
+	padding: 20px;
+
+}
+
+/* Gallery post format styles */ 
+article.post-gallery {
+	background-color: #222;
+	color: #FFF;
+	padding: 20px;
+}
+
+article.post-gallery h2 {
+	text-align: center;
+}
+
+
+/* Header */
+.site-header {
+	border-bottom: 1px solid #999;
+	padding: 10px;
+}
+
+.site-header h1 {
+	margin-bottom: 0px;
+}
+
+.site-header h5 {
+	margin-top: 0px;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 1px solid #999;
+}
+
+/* Navigation Menus */
+.site-nav ul {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both;}
+.site-nav ul { *zoom: 1;}
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+/* Site Header menu */
+.site-header nav ul li {
+	margin: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px ;
+	border: 1px solid #BBB;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background-color: #006ec3;
+	color: #fff;
+
+}
+
+/* Site Footer Menu*/ 
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB;
+
+}
+
+/* Page Layout */
+article.page h1 {
+	font-size: 300%;
+}
+
+/* Post styles */
+.post h1 {
+	margin-bottom: 0px;
+}
+
+p.post-info {
+	font-size: 80%;
+	color: #999;	
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
+/* Image styles */
+img {
+	max-width: 100%;
+}
+
+.has-thumbnail {
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
