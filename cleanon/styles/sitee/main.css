@@ -1,3 +1,13 @@
+body { padding-top: 93px; }
+
+.nav{
+    	background-color: #efefef;
+}
+
+#logolink:link {
+    text-decoration: none;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -10,8 +20,8 @@
   display: inline;  
 }
 
-.nav ul li a:link,
-.nav ul li a:visited {
+.navlinks:link,
+.navlinks:visited {
 	
 	padding: 10px 18px ;
 	border: 1px solid #BBB;
@@ -19,17 +29,27 @@
 	text-decoration: none;
 }
 
-.nav a:hover {
+.navlinks:hover {
     background-color: #808080
 }
 
-.jumbotron {
+#jumboTop {
   background-image: url('front-img.jpg');
-  height: 500px;
+  height: 650px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
 }
+
+#jumboBottom {
+  background-color: #fff;
+  background-image: url('panorama.png');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: 100%;
+}
+
 
 .jumbotron .container {
   position: relative;
@@ -96,3 +116,7 @@
   text-transform: uppercase;
 }
 
+#why {
+    width: 25%;
+    height: 25%;
+}

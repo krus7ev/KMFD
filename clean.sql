@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 06, 2015 at 12:58 PM
+-- Generation Time: Jul 08, 2015 at 10:38 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -85,15 +85,20 @@ CREATE TABLE IF NOT EXISTS `webpages` (
   `description` text NOT NULL,
   `page_url` varchar(240) NOT NULL,
   `page_content` text NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `webpages`
 --
 
 INSERT INTO `webpages` (`id`, `page_headline`, `page_title`, `keywords`, `description`, `page_url`, `page_content`) VALUES
-(1, 'test', 'test', 'test', 'test', 'test', 'test'),
-(2, 'test2', 'test2', 'test2', 'test2', 'test2', 'test2');
+(3, '', 'Home', '', 'This is the index page', '/home', ''),
+(4, '', 'About', '', 'About us', '/about', ''),
+(5, '', 'Services', '', 'Our services', '/services', ''),
+(6, '', 'Prices', '', 'Our pricing', '/prices', ''),
+(7, '', 'Terms & Conditions', '', 'Terms & Conditions', '/terms', ''),
+(8, '', 'Privacy policy', '', 'Privacy policy', '/privacy', ''),
+(10, '', 'Contacts', '', 'Get in touch', '/contacts', '');
 
 --
 -- Indexes for dumped tables
@@ -135,7 +140,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 -- AUTO_INCREMENT for table `webpages`
 --
 ALTER TABLE `webpages`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
